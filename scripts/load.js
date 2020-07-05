@@ -22,7 +22,7 @@ function preload() {
     somDaColisao = loadSound('sons/impact.wav');
     somGameOver = loadSound('sons/gameover.wav');
 
-    fita = loadJSON('/public/fita/fita.json');
+    fita = loadJSON('fita/fita.json');
 
     leaderboard = loadStrings('scripts/placar.csv');
 
